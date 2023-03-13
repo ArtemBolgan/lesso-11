@@ -1,0 +1,26 @@
+img{
+  width: 450px;
+  height: 200px;
+} 
+body{
+background-color: green;
+}
+.parent{
+display: flex;
+gap: 10px;
+}
+.child{
+border:2px solid yellow;
+}
+h2, p{
+text-align: center;
+}
+button{
+height: 30px;
+background-color: #49f70a;
+cursor: pointer;
+}
+button:hover{
+background-color: wheat;  
+color:red
+}
